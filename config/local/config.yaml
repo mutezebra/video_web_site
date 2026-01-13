@@ -1,0 +1,56 @@
+system:
+  domain: VideoWebsite
+  httpPort: "0.0.0.0:8000"
+  LocalMode: "local"
+
+redis:
+  redisHost: "redis"
+  redisPort: "6379"
+  redisDbName: 0
+  redisNetWork: "tcp"
+  redisPassword: "88888888"
+
+mysql:
+  default:
+    dialect: "mysql"
+    dbHost: "db"
+    dbPort: "3306"
+    dbName: "videowebsite"
+    userName: "root"
+    password: "88888888"
+    charset: "utf8mb4"
+
+local:
+  AvatarPath: "/static/imgs/avatar/"
+  DefaultAvatarPath: "/static/imgs/default.png"
+  DefaultVideoPath: "/static/videos/"
+  QRCodePath: "/static/imgs/qr-code"
+
+email:
+  qqmail:
+    sender: "mutezebra@qq.com"
+    host: "smtp.qq.com"
+    password: ""
+    address: "smtp.qq.com:25"
+
+es:
+  userName: "elastic"
+  password: "88888888-elasticsearch"
+  address: "http://es:9200"
+
+qiniu:
+  AccessKey: ""
+  SecretKey: ""
+  AvatarPath: "static/avatar/"
+  VideoPath: "static/videos/"
+  DefaultAvatarPath: "static/avatar/default.png"
+  Bucket: "videowebsite"
+  Domain: ""
+
+
+rabbitmq:
+  RabbitMQ: "amqp"
+  RabbitMQUser: "mutezebra"
+  RabbitMQPassWord: "88888888"
+  RabbitMQHost: "rabbitmq"
+  RabbitMQPort: "5672"
