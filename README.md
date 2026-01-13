@@ -1,5 +1,3 @@
-- 文档 https://o0e45m7p53e.feishu.cn/docx/MpHudivodocnCzxsRA4cR7U1nRN
-
 ## 项目规划
 - [x] 部署上线
 - [x] 编写接口文档与目录树
